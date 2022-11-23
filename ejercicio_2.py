@@ -45,7 +45,7 @@ print(res_1)
 
 
 # Imprimir en pantalla la variable res_2
-if texto_1>texto_2:
+if len(texto_1)>len(texto_2):
     res_2=texto_1
 else:
     res_2=texto_2
